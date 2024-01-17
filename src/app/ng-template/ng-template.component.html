@@ -1,0 +1,8 @@
+<h1>Hi There . Lets Test ng-template</h1>
+
+<ng-template #templateReference>
+    <h2>ng-template rendering</h2>
+</ng-template>
+
+<div *ngTemplateOutlet="templateReference"></div>
+<ng-container *ngTemplateOutlet="templateReference"></ng-container>

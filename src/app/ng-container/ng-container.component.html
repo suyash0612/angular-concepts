@@ -1,0 +1,8 @@
+<button (click)="onToggle()">Toggle State</button>
+
+<ng-container *ngIf="toggle; else toogleRefernce">
+    Toggle is On
+</ng-container>
+<ng-template #toogleRefernce>
+    Toggle is Off
+</ng-template>

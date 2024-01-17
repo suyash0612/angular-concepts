@@ -1,0 +1,24 @@
+<h4>Demonstrate Differnce b/w ViewChild and ContentChild</h4>
+<app-ng-child>
+    <div class="content" #div_content>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, soluta
+        odio eum quis, dolor tempora magnam impedit hic natus mollitia quo! Esse ab
+        sint nobis odit veniam soluta similique neque voluptatem error. Nemo
+        accusantium ipsa ex, molestiae, earum commodi quos explicabo at nulla neque
+        dolorem dolorum ullam cupiditate sit saepe cum veritatis, veniam fugit eos
+        consequuntur odit suscipit maiores praesentium a! Debitis obcaecati iste
+        quaerat soluta cupiditate accusamus dicta repellat illo autem saepe nisi,
+        sapiente facilis molestiae in neque natus laborum nesciunt animi deserunt,
+        beatae voluptate id accusantium. Debitis eum ipsum, odit natus reprehenderit
+        eveniet perspiciatis quidem velit culpa omnis?
+      </div>
+      <hr>
+      <div class="detail-1" #detailsref>Lorem ipsum dolor sit amet consectetur, adipisicing elit.?</div>
+      <div class="detail-2" #detailsref>Lorem ipsum dolor sit amet consectetur.</div>
+      <div class="detail-3" #detailsref>Lorem ipsum dolor sit amet.</div>
+      <hr>
+      <app-ng-name [name]="'Adidas'"></app-ng-name>
+      <app-ng-name [name]="'Puma'"></app-ng-name>
+      <app-ng-name [name]="'Nike'"></app-ng-name>
+</app-ng-child>
+<button class="btn-parent" (click)="parentBtn()">Parent Button Using NgChild</button>

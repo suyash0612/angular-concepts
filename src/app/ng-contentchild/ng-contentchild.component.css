@@ -1,0 +1,9 @@
+.btn-parent{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin:auto;
+    margin-left: 40%;
+}

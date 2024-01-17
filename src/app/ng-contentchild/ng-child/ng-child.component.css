@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.child-container{
+    padding: 20px 30px 20px 20px;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+}
+
+.heading{
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-child{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+}

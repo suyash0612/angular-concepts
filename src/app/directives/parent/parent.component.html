@@ -1,0 +1,16 @@
+<button (click)="showDetails()">Show Details</button>
+<div *ngFor="let person of persons" >
+    <!-- {{person.firstname}}
+    {{person.middlename}}
+    {{person.lastname}}
+    {{person.gender}}
+    {{person.disability}}
+    {{person.experience}} -->
+    <app-child [personChild]="person"
+     [state]="checkBtnState"
+     (evtemt)="onDataRecv($event)"
+     ></app-child>
+</div>
+<div *ngIf="childcmpmsg">
+    {{childcmpmsg}}
+</div>
