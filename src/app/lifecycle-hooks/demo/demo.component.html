@@ -1,6 +1,10 @@
 <div class="demo">
-    <p #messageRef>Demo is created to test Lifecycle hooks!
-        <br>
-       Input Text : {{ message }}
+    <p #messageRef>
+       Message : {{ message }}
     </p>
+    <!-- <p #messageRef *ngFor="let msg of message">
+       Message : {{ msg }}
+    </p> -->
 </div>
+
+<ng-content></ng-content>
