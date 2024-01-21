@@ -14,6 +14,9 @@ import { NgChildComponent } from './ng-contentchild/ng-child/ng-child.component'
 import { NgNameComponent } from './ng-contentchild/ng-name/ng-name.component';
 import { LifecycleHooksComponent } from './lifecycle-hooks/lifecycle-hooks.component';
 import { DemoComponent } from './lifecycle-hooks/demo/demo.component';
+import { SampleDirective } from './CustomDirectives/sample.directive';
+import { PropVsHostBindingComponent } from './prop-vs-host-binding/prop-vs-host-binding.component';
+import { BindingDemoComponent } from './prop-vs-host-binding/binding-demo/binding-demo.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +32,9 @@ import { DemoComponent } from './lifecycle-hooks/demo/demo.component';
     NgNameComponent,
     LifecycleHooksComponent,
     DemoComponent,
+    SampleDirective,
+    PropVsHostBindingComponent,
+    BindingDemoComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+div{
+    text-align: center;
+    margin-top: 12%;
+}
+
+input, button {
+    width: 50%;
+    border: 2px solid gray;
+    border-radius: 50px;
+    height: 30px;
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    width: 10%;
+    height: 40px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
