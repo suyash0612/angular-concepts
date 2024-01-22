@@ -17,6 +17,10 @@ import { DemoComponent } from './lifecycle-hooks/demo/demo.component';
 import { SampleDirective } from './CustomDirectives/sample.directive';
 import { PropVsHostBindingComponent } from './prop-vs-host-binding/prop-vs-host-binding.component';
 import { BindingDemoComponent } from './prop-vs-host-binding/binding-demo/binding-demo.component';
+import { ClassDirective } from './CustomDirectives/class.directive';
+import { LikeNgclassComponent } from './like-ngclass/like-ngclass.component';
+import { LikeNgstyleComponent } from './like-ngstyle/like-ngstyle.component';
+import { StyleDirective } from './CustomDirectives/style.directive';
 
 @NgModule({
   declarations: [
@@ -35,6 +39,10 @@ import { BindingDemoComponent } from './prop-vs-host-binding/binding-demo/bindin
     SampleDirective,
     PropVsHostBindingComponent,
     BindingDemoComponent,
+    ClassDirective,
+    LikeNgclassComponent,
+    LikeNgstyleComponent,
+    StyleDirective,
   ],
   imports: [
     BrowserModule,
