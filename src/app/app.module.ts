@@ -23,6 +23,7 @@ import { LikeNgstyleComponent } from './like-ngstyle/like-ngstyle.component';
 import { StyleDirective } from './CustomDirectives/style.directive';
 import { LikeNgIfComponent } from './like-ng-if/like-ng-if.component';
 import { IfDirective } from './CustomDirectives/if.directive';
+import { NgswitchComponent } from './ngswitch/ngswitch.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { IfDirective } from './CustomDirectives/if.directive';
     StyleDirective,
     LikeNgIfComponent,
     IfDirective,
+    NgswitchComponent,
   ],
   imports: [
     BrowserModule,

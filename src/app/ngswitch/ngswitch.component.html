@@ -1,0 +1,60 @@
+<div class="notice-container" >
+  <div class="notice-header">
+    <button (click)="tab='info'">Info</button>
+    <button (click)="tab='service'">Service</button>
+    <button (click)="tab='privacy'">Privacy</button>
+    <button (click)="tab='useragr'">User Agreement</button>
+  </div>
+  <div class="notice-body" [ngSwitch]="tab">
+    <div *ngSwitchDefault>
+        <h2>NG-Default and Ng-Switch Check</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque!
+          Omnis placeat voluptas expedita qui nisi fugiat maxime, aliquid
+          perspiciatis quasi ratione, veritatis voluptate dolorem itaque. Quasi
+          labore quidem eligendi.
+        </p>
+      </div>
+    <div *ngSwitchCase="'info'">
+      <h2>Info of Privacy policy</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque!
+        Omnis placeat voluptas expedita qui nisi fugiat maxime, aliquid
+        perspiciatis quasi ratione, veritatis voluptate dolorem itaque. Quasi
+        labore quidem eligendi.
+      </p>
+    </div>
+    <div *ngSwitchCase="'service'">
+      <h2>Terms of services</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eum enim
+        veniam voluptatum architecto tempore distinctio vitae fuga sapiente
+        atque, odit laboriosam consequuntur officiis odio, aspernatur aut
+        laborum ex cumque!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex
+        dolorum, esse nobis atque delectus tempore ipsa voluptate. Enim,
+        laboriosam!
+      </p>
+    </div>
+    <div *ngSwitchCase="'privacy'">
+      <h2>Privacy Policy</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+        eligendi dignissimos perspiciatis consectetur pariatur culpa quae,
+        doloremque rerum voluptates tempora ea amet corrupti earum suscipit
+        error in fuga fugiat voluptas!
+      </p>
+    </div>
+    <div *ngSwitchCase="'useragr'">
+      <h2>User Agreement</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+        eligendi dignissimos perspiciatis consectetur pariatur culpa quae,
+        doloremque rerum voluptates tempora ea amet corrupti earum suscipit
+        error in fuga fugiat voluptas!
+      </p>
+    </div>
+  </div>
+</div>
