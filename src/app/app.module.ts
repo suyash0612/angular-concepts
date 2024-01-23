@@ -21,6 +21,7 @@ import { ClassDirective } from './CustomDirectives/class.directive';
 import { LikeNgclassComponent } from './like-ngclass/like-ngclass.component';
 import { LikeNgstyleComponent } from './like-ngstyle/like-ngstyle.component';
 import { StyleDirective } from './CustomDirectives/style.directive';
+import { LikeNgIfComponent } from './like-ng-if/like-ng-if.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { StyleDirective } from './CustomDirectives/style.directive';
     LikeNgclassComponent,
     LikeNgstyleComponent,
     StyleDirective,
+    LikeNgIfComponent,
   ],
   imports: [
     BrowserModule,

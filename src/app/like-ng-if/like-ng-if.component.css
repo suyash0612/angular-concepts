@@ -1,0 +1,48 @@
+.notice-container {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden; /* Hide any content that overflows */
+    font-family: Arial, sans-serif;
+    padding:15px;
+  }
+  
+  .notice-header {
+    background-color: #181717;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .notice-header button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .notice-info {
+    background-color: #e7f3fe;
+    padding: 15px;
+    border: 1px solid black;
+
+  }
+  
+  .notice-info p {
+    margin: 0;
+  }
+  
+  .notice-body {
+    padding: 20px;
+  }
+  
+  .notice-body h1,
+  .notice-body h2 {
+    color: #333;
+  }
+  
+  .notice-body p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
