@@ -5,8 +5,8 @@
   <div class="notice-info">
     <p>Read terms and conditions</p>
   </div>
-  <ng-template [ngIf]="bool" [ngIfElse]="templateref">
-    <div class="notice-body">     <!-- *ngIf="bool; else templateref"> -->
+  <!-- <ng-template [ngIf]="bool" [ngIfElse]="templateref"> -->
+    <div class="notice-body" *appIf ="bool">     <!-- *ngIf="bool; else templateref"> -->
       <h1>Terms of Privacy policy</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eaque!
@@ -29,9 +29,9 @@
         error in fuga fugiat voluptas!
       </p>
     </div>
-  </ng-template>
+  <!-- </ng-template> -->
 
-  <ng-template #templateref>
+  <!-- <ng-template #templateref> -->
     <div class="notice-body">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex
@@ -39,5 +39,5 @@
         laboriosam!
       </p>
     </div>
-  </ng-template>
+  <!-- </ng-template> -->
 </div>

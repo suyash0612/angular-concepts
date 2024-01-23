@@ -22,6 +22,7 @@ import { LikeNgclassComponent } from './like-ngclass/like-ngclass.component';
 import { LikeNgstyleComponent } from './like-ngstyle/like-ngstyle.component';
 import { StyleDirective } from './CustomDirectives/style.directive';
 import { LikeNgIfComponent } from './like-ng-if/like-ng-if.component';
+import { IfDirective } from './CustomDirectives/if.directive';
 
 @NgModule({
   declarations: [
@@ -45,10 +46,11 @@ import { LikeNgIfComponent } from './like-ng-if/like-ng-if.component';
     LikeNgstyleComponent,
     StyleDirective,
     LikeNgIfComponent,
+    IfDirective,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
