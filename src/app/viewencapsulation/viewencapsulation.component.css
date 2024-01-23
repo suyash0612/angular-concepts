@@ -1,0 +1,19 @@
+div.container{
+    display: grid;
+    grid-column: 1;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 25vh;  */
+}
+
+div.col{
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+}
+
+button{
+    background-color: coral;
+    color: white;
+    width: 50%;
+}
